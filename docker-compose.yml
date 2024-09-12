@@ -1,0 +1,22 @@
+version: '3'
+services:
+  
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"  # No change for backend, matches Apache config
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./projects:/app/data
+    command: flask run --host=0.0.0.0
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "19000:3000"  # Expose port 19000 on host to match Apache config
+    volumes:
+      - ./frontend:/app
+    command: npm start
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # Fix for Docker + React live reload

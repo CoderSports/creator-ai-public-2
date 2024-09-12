@@ -1,0 +1,8 @@
+FLASK_ENV=development
+FLASK_DEBUG=True
+
+# OpenAI API Key
+OPENAI_API_KEY=your-openai-api-key-here
+
+# Directory for saving project files (inside Docker volume)
+PROJECT_DIR=/app/data
