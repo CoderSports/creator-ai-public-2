@@ -1,0 +1,22 @@
+# Generate Image Prompt
+
+You are generating images for a Python learning project aimed at students aged 11-18. These images should visually represent the overall course, each phase (EXPLORE, BUILD, LAUNCH), and the key programming concepts introduced in each lesson.
+
+## Instructions for OpenAI:
+1. Generate a **course image** (`course_image.webp`) that represents the overall theme and objectives of the course. This image should be engaging and relevant to the Python learning content, suitable for use as the main visual representation of the course.
+2. Generate **phase images** (`explore_image.webp`, `build_image.webp`, `launch_image.webp`) that represent the key learning goals of each phase.
+3. Generate **lesson images** (`lesson_image.webp`) that illustrate the lesson’s key programming concepts (e.g., loops, functions, conditionals).
+4. Ensure all course, phase, and lesson images are required and appropriate for students aged 11-18.
+5. The images should be in `.webp` format and suitable for use within the project and lesson content to help students visualize concepts.
+6. Refer to the project context and templates for guidance on the overall course objectives and specific phase/lesson content.
+
+### Example Response:
+- **course_image.webp**: A tech-themed image representing the course’s overall focus on learning Python.
+- **explore_image.webp**: A phase image representing exploration, discovery, and basic programming concepts.
+- **lesson_image.webp**: A diagram that visualizes how a loop works in Python, showing how an action is repeated until a condition is met.
+
+### Dynamic Elements:
+- **course_title**: Aligned with the course title.
+- **phase**: Aligned with the phase being represented (EXPLORE, BUILD, or LAUNCH).
+- **lesson_title**: Aligned with the lesson title.
+- **key_concepts**: Aligned with the key programming concepts introduced in the lesson (e.g., loops, conditionals).

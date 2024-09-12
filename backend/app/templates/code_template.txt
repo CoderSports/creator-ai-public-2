@@ -1,0 +1,87 @@
+# Code Template for Python Learning Projects
+
+# Overview
+
+You are generating Python code for a learning project within the Coder Sports IDE, designed for students aged 8-16. The generated code should be:
+
+1. **Compatible with the Coder Sports IDE:**
+   - Ensure the code is compatible with Pyodide, which powers the Coder Sports IDE (no external packages beyond the standard Python libraries available in Pyodide).
+   - The code must be executable within the browser-based environment of the IDE, optimizing for limited resources (memory and CPU).
+   - Adapt code complexity to the age and knowledge level of the students. Provide simpler examples for younger students and progressively harder concepts for older students.
+
+2. **Educational and Clear:**
+   - The code should be easy to follow, with comments that clearly explain each section. The explanations should be age-appropriate and avoid complex jargon.
+   - Use analogies where appropriate to explain abstract concepts, especially for younger students.
+   - **Ensure that the code is progressive:** Build on knowledge learned in previous lessons, so students see how their understanding grows.
+
+3. **Modular and Reusable:**
+   - Emphasize the importance of functions and classes to create modular, reusable code.
+   - For younger students, use simpler functions; for older students, introduce more advanced topics such as classes and decorators.
+   - Highlight opportunities for students to modify the code themselves, promoting creative problem-solving.
+
+4. **Error Handling:**
+   - Ensure the code includes basic error handling with clear error messages.
+   - For younger students, focus on handling simpler errors, such as invalid inputs. For older students, introduce more advanced error handling, such as custom exceptions.
+   - Encourage OpenAI to suggest ways students can experiment with error handling as an extension activity.
+
+5. **IDE Constraints Reminder:**
+   - The Coder Sports IDE has limitations:
+     - No file I/O, networking, or system-level operations.
+     - No multithreading or multiprocessing.
+     - All code should be single-threaded and synchronous.
+     - Keep memory and CPU usage to a minimum to ensure smooth browser-based execution.
+
+6. **Creative Flexibility:**
+   - At the end of the code, encourage students to explore beyond the predefined problem. Ask OpenAI to suggest specific modifications or experiments to foster creativity and experimentation.
+
+# Example Function
+
+```python
+def {example_function}(input_value):
+    """
+    A generic function that demonstrates a specific concept or calculation.
+    Adjust this function to match the complexity of the lesson phase (Explore, Build, Launch).
+    This example helps students understand the relationship between input and output.
+    """
+    result = input_value * 2  # Example calculation: multiplying input by 2
+    return result
+
+# Interactive Prompt for Students
+try:
+    value = float(input("Enter a number: "))
+    print(f"The result is {example_function}(value)")
+except ValueError:
+    print("Please enter a valid number.")
+```
+
+# Testing and Validation
+- Encourage students to test their code with various inputs.
+- Provide targeted test cases for different complexity levels (younger students could focus on positive numbers, while older students could explore edge cases such as negative numbers or non-numeric inputs).
+
+```python
+def test_{example_function}():
+    assert {example_function}(2) == 4
+    assert {example_function}(5) == 10
+    # Include additional test cases for more advanced students:
+    assert {example_function}(0) == 0  # Test with zero
+    assert {example_function}(-1) == -2  # Test with a negative number
+    print("All tests passed!")
+```
+
+# Creative Exploration:
+- After the main code is presented, encourage students to try variations or explore new features.
+  - Modify the function to perform a different calculation (e.g., addition, subtraction, division).
+  - Ask students to write a new function that accepts two inputs and combines them in a creative way (e.g., a function that calculates the area of a rectangle given its width and height).
+  - Encourage students to create interactive prompts, like simple games, that use the functions they've written.
+
+# Reflection Questions:
+- Prompt students to reflect on their learning:
+  - **Reflection 1:** How does modifying the input change the output? What did you learn from this relationship?
+  - **Reflection 2:** What other calculations or problems could you solve using functions like the one you created?
+  - **Reflection 3:** How could you extend this function to handle more complex scenarios (e.g., more inputs or additional error handling)?
+
+# Prompt OpenAI to:
+- Create age-appropriate code that progressively increases in complexity across the EXPLORE/BUILD/LAUNCH phases.
+- Encourage creativity and exploration beyond the core exercise by providing prompts and suggestions for further experimentation.
+- Provide a variety of examples that test different skills (e.g., handling edge cases, adding new features).
+- Focus on code that encourages student reflection and deepens their understanding of core concepts.

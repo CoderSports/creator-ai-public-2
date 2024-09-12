@@ -1,0 +1,17 @@
+# Generate Step Prompt
+
+You are generating a step for a Python lesson aimed at students aged 11-18. The step should align with the key concepts introduced in the lesson and help break down the lesson into manageable tasks.
+
+## Instructions for OpenAI:
+1. Generate the step content (`step{step_number}/step{step_number}.md`) with clear instructions and code snippets that guide the student through a specific task.
+2. Ensure that the step is aligned with the lesson’s key concepts and fits into the overall lesson flow.
+3. Provide code examples where applicable, ensuring that the content adheres to the technical constraints of the Coder Sports IDE (e.g., no file I/O, only Pyodide-supported libraries).
+4. Ensure each step is located in its own subfolder (`step{x}`).
+
+### Example Response:
+- **step1/step1.md**: Explains how to create a `for` loop that iterates over a list of numbers, with an example of printing each number.
+- **step2/step2.md**: Modifies the loop to print only even numbers from the list.
+
+### Dynamic Elements:
+- **step_number**: The number of the step within the lesson.
+- **key_concepts**: Automatically aligned with the key programming concepts introduced in the lesson (e.g., loops, conditionals).

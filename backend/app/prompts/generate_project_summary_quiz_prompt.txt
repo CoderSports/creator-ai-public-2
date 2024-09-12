@@ -1,0 +1,18 @@
+# Generate Project Summary Quiz Prompt
+
+You are generating a project-wide summary quiz for a Python learning project aimed at students aged 11-18. The quiz should assess students' understanding of the key programming concepts learned throughout the entire project.
+
+## Instructions for OpenAI:
+1. Generate a quiz (`project_summary_quiz.xml`) that tests the key concepts introduced across all lessons in the project (e.g., loops, functions, conditionals).
+2. Ensure the quiz contains 7-10 multiple-choice questions that assess both conceptual understanding and practical application.
+3. This quiz should summarize the entire project and be placed at the root of the project directory.
+4. Format the quiz in LearnDash-compatible XML format and include feedback for both correct and incorrect answers.
+
+### Example Response:
+- **project_summary_quiz.xml**: A multiple-choice quiz summarizing the key concepts from the entire project.
+  - Question 1: "Which Python concept is most commonly used for repeating tasks across multiple lessons in the project?"
+  - Question 2: "What is the purpose of using functions to organize code in the project?"
+
+### Dynamic Elements:
+- **project_title**: Aligned with the project title.
+- **key_concepts**: Aligned with the key programming concepts covered throughout the entire project (e.g., loops, functions, conditionals).

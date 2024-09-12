@@ -1,0 +1,16 @@
+# Generate Detailed Video Script Prompt
+
+You are generating a detailed video script for a Python lesson aimed at students aged 11-18. The script should walk through the lesson’s key programming concepts and steps in a clear, step-by-step manner.
+
+## Instructions for OpenAI:
+1. Generate a detailed video script (`lesson_detailed_video_script.md`) that explains the key programming concepts in the lesson and walks through the steps (e.g., loops, conditionals, functions).
+2. Ensure the script provides detailed explanations and practical examples to help students understand and apply the lesson’s concepts.
+3. Ensure the video script is required for every lesson and aligned with each step in the lesson.
+
+### Example Response:
+- **lesson_detailed_video_script.md**: A detailed script that explains how to create a `for` loop in Python. Walks through the steps of iterating over a list, modifying the loop to print even numbers, and explaining why this is useful in programming.
+
+### Dynamic Elements:
+- **lesson_title**: Aligned with the title of the lesson.
+- **key_concepts**: Aligned with the key programming concepts introduced in the lesson (e.g., loops, conditionals).
+- **steps**: Aligned with the steps generated in the lesson.

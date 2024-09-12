@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Project Summary Quiz: {project_title}</title>
+    <description>This quiz will assess your understanding of the entire {project_title} project. The questions will cover the main concepts and skills you’ve learned throughout the project.</description>
+
+    <!-- Guidance for OpenAI -->
+    <!-- Generate questions that summarize the core concepts and tasks completed throughout the project. -->
+    <!-- Ensure questions encourage critical thinking, concept application, and a review of the major functions, code logic, and problem-solving techniques covered. -->
+    
+    <!-- Multiple Choice Questions -->
+
+    <!-- Example Question 1 (Project-Wide Concept Recap) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>Which function is used to {describe_main_project_function} in the {project_title} project?</question_text>
+        <answer_options>
+            <option correct="true">{main_function_name}</option>
+            <option correct="false">{incorrect_option_1}</option>
+            <option correct="false">{incorrect_option_2}</option>
+            <option correct="false">{incorrect_option_3}</option>
+        </answer_options>
+        <feedback correct="Correct! `{main_function_name}` was the key function used to {describe_main_project_function}." incorrect="Not quite. The correct function is `{main_function_name}`. Review the project to see how it was implemented.">
+        </feedback>
+    </question>
+
+    <!-- Example Question 2 (Application of Concepts Across the Project) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>Which concept did you apply when {describe_key_task} in the project?</question_text>
+        <answer_options>
+            <option correct="true">{key_concept}</option>
+            <option correct="false">{incorrect_concept_1}</option>
+            <option correct="false">{incorrect_concept_2}</option>
+        </answer_options>
+        <feedback correct="Correct! You applied `{key_concept}` when completing the task." incorrect="Review the project to better understand how `{key_concept}` was applied.">
+        </feedback>
+    </question>
+
+    <!-- Example Question 3 (Critical Thinking and Problem-Solving) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>What change would improve the performance of the function `{main_function_name}` in the {project_title} project?</question_text>
+        <answer_options>
+            <option correct="true">Optimize the function by reducing redundant calculations.</option>
+            <option correct="false">Remove error handling.</option>
+            <option correct="false">Increase the input size automatically.</option>
+            <option correct="false">Replace the function with a loop.</option>
+        </answer_options>
+        <feedback correct="Great! Optimizing the function by reducing redundant calculations would improve its performance." incorrect="Think about why optimization matters. Review the project to see how to implement better performance strategies.">
+        </feedback>
+    </question>
+
+    <!-- Quiz Settings -->
+    <settings>
+        <passing_score>70</passing_score>
+        <time_limit>1200</time_limit> <!-- 20-minute time limit -->
+        <randomize_questions>true</randomize_questions>
+        <feedback_style>immediate</feedback_style> <!-- Immediate feedback after each question -->
+    </settings>
+</quiz>

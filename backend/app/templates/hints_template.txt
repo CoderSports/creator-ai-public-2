@@ -1,0 +1,46 @@
+# Hints Template for Python Learning Projects
+
+# These hints are intended to guide students through challenges while fostering independent thinking. Each hint gradually provides more specific help, leading the student to discover solutions themselves while reinforcing core concepts.
+
+## Hint 1: Conceptual Reminder (High-Level)
+- Offer a subtle hint to encourage students to think critically about the problem without giving away the answer. Focus on key concepts or principles.
+- **Focus on Conceptual Reinforcement:** Encourage students to revisit lessons or examples they have seen before.
+- **Example Instruction:** “What is the formula or concept you’re working with? Try recalling how it’s applied.”
+
+Example:
+- “Think back to how loops work. What part of the code repeats until a condition is met? Could adjusting the loop condition help?”
+
+## Hint 2: Guided Reflection (Intermediate Guidance)
+- Offer more detailed guidance that helps students reflect on a specific part of the code or concept without solving the problem for them.
+- **Structured Guidance:** Encourage exploration of specific parts of the code that may be causing issues or confusion. Introduce a small nudge toward the solution.
+- **Example Instruction:** “Review the way your function handles inputs. What might happen if you tried using a different input?”
+
+Example:
+- “Look at how you’re calculating the area of the circle. Are you properly handling the exponent in the formula r^2?”
+
+## Hint 3: Targeted Assistance (Detailed but Not Complete Solution)
+- Provide more direct help, highlighting the exact area where the student may be struggling, but leaving room for them to finalize the solution independently.
+- **Precision in Prompts:** Ensure the hint is specific enough to lead the student toward the correct approach while avoiding giving them the complete answer.
+- **Example Instruction:** “You’re close! Take another look at the variable names or operators you’ve used. What small change could help your function return the correct result?”
+
+Example:
+- “You’ve got the right idea, but the exponentiation may need another look. Use the double asterisk `**` for raising the radius to a power: `radius ** 2`.”
+
+## General Hinting Guidelines:
+- **Age-Appropriate Language:** Ensure hints are simple, engaging, and suited for students aged 8-16.
+- **Incremental Learning Focus:** Each hint should build on the previous one, giving students an opportunity to make incremental progress toward the solution.
+- **Encouraging Exploration:** Whenever possible, encourage the student to experiment with their code. Offer questions that prompt further investigation and creativity.
+  
+### Example Additional Hints for a More Complex Project
+
+**Hint 1:** “Have you tried running the program with different inputs? How does the output change when you increase or decrease the radius?”
+
+**Hint 2:** “If the calculation doesn’t seem right, are you using the correct variable names? Pay attention to which variables are passed into your function.”
+
+**Hint 3:** “For advanced projects, break down the problem into smaller parts. Can you isolate the issue by printing out intermediate results at key points in the code?”
+
+## Reminder for OpenAI:
+- **Use Constraints:** Keep explanations concise and to the point—limit hints to a few sentences. Avoid overwhelming the student with too much detail at once.
+- **Predefined Examples:** Integrate hints into examples when appropriate, showing students how small changes to the code can lead to different outcomes.
+- **Promote Critical Thinking:** Encourage OpenAI to avoid spoon-feeding answers and instead foster curiosity and problem-solving skills by using questions that prompt deeper reflection.
+- **Iterative Learning:** Reinforce the idea that each step builds on the last, gradually helping students progress without jumping too quickly to the final solution.

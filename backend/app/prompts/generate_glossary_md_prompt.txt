@@ -1,0 +1,13 @@
+# Generate Glossary File (`glossary.md`) Prompt
+
+You are generating a `glossary.md` file for a Python lesson aimed at students aged 11-18. The file should define key programming terms and concepts introduced in the lesson to help students understand important terminology.
+
+## Instructions for OpenAI:
+1. Define the key programming terms and concepts introduced in the lesson (e.g., loops, conditionals, functions).
+2. Provide simple, clear explanations suitable for students aged 11-18.
+3. Ensure that the definitions are concise but thorough enough to help students grasp the concepts.
+4. Refer to the project context and templates for the specific terms covered in the lesson.
+
+### Example Response (No specific example):
+- **Loop**: A control structure that allows code to be executed repeatedly based on a condition.
+- **Function**: A reusable block of code designed to perform a specific task when called.

@@ -1,0 +1,48 @@
+# Introductory Video Script for Python Learning Project
+
+## Title: {Lesson_Title}
+## Phase: EXPLORE/BUILD/LAUNCH
+## Target Audience: Students aged 8-16
+
+### Introduction
+
+- **Greeting and Welcome:**
+  - Start with an engaging greeting that feels personal and encourages student excitement.
+  Example: "Hi everyone! Welcome to another coding adventure with Coder Sports! I’m [Instructor Name], and I’m super excited to be your guide today as we tackle something really cool together."
+
+- **Introduction to the Lesson:**
+  - Give a concise overview of what students will be working on and emphasize how the project connects to real-world applications.
+  Example: "Today, we’re going to be building {exciting_project}! You’ll be learning how {key_concept} works in Python, and these are skills that you’ll use not just here, but anytime you want to make your code smarter and faster."
+
+- **Overview of Key Concepts:**
+  - Introduce the key concepts that will be covered, ensuring they are relatable and age-appropriate. Use analogies to simplify any complex ideas.
+  Example: "We’ll dive into {key_concept}, which is like {analogy}. Then we’ll explore {secondary_concept}, which is like {analogy2}."
+
+### Outline of Lesson
+
+- **High-Level Overview:**
+  - Break down the lesson step by step in a clear and focused manner. This should give students a roadmap for what they’ll be doing throughout the lesson, providing them with a sense of direction and purpose.
+  Example: "First, we’ll start by learning {key_concept}. Then, we’ll move on to {task}, and finally, we’ll {project_goal}. By the end, you’ll see how powerful these coding tools can be."
+
+- **Introduction to Tools and Techniques (Optional):**
+  - Mention any tools, techniques, or coding environments that students will need to be familiar with. Explain the tools in a way that ties them directly to the lesson objectives, while also reminding students of any limitations specific to the Coder Sports IDE.
+  Example: "As always, we’re using the Coder Sports IDE, which is perfect for practicing Python in your browser."
+
+- **Excitement and Encouragement:**
+  - End the introduction by motivating the students and reinforcing their ability to succeed. Use positive and engaging language to ensure they stay excited about the lesson.
+  Example: "I know this is going to be an awesome challenge, and I can’t wait to see what you create. So let’s jump in and get started—your coding adventure awaits!"
+
+### Notes for OpenAI
+
+- **Contextual Engagement:** Create an engaging and student-friendly introduction using age-appropriate analogies and language that appeals to students aged 8-16. Make sure to introduce concepts in a way that feels exciting and relatable.
+- **Precision in Instructions:** Ensure clarity and conciseness in the outline of the lesson. Each segment should be well-defined and broken down into manageable steps for incremental learning.
+- **Incremental Learning Emphasis:** Encourage scaffolding, where each part of the video builds on the previous sections, helping students make connections between concepts.
+- **Tools and Constraints (Optional):** Ensure that any references to coding tools align with the Coder Sports IDE environment. Reinforce the limitations of the IDE, such as no file I/O, no multithreading, and restricted external package use.
+- **Engagement and Motivation:** Focus on motivating students to explore and experiment with the code. Use positive reinforcement to build confidence and encourage creativity.
+- **Relatable Examples:** Provide relatable and easy-to-understand analogies to break down complex concepts like loops and functions. Encourage OpenAI to introduce examples that are relevant to students' everyday experiences.
+Dynamic Placeholders:
+{Lesson_Title}: The title of the lesson.
+{key_concept}: The main concept being taught in the lesson (e.g., loops, functions).
+{exciting_project}: The specific project or task that excites students (e.g., "a mini ocean explorer").
+{analogy}, {analogy2}: Age-appropriate analogies to simplify complex ideas.
+{task}, {project_goal}: Steps and project goals relevant to the lesson.

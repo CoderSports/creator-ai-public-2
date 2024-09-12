@@ -1,0 +1,28 @@
+# Session Initialization Prompt for Python Learning Projects
+
+## 1. User Input for Project Generation
+If the user has proposed a project title and general theme, ensure that the project’s structure and content generation are built around these inputs.
+
+- **User-Proposed Project Title**: {user_proposed_title}
+- **User-Proposed General Theme**: {user_proposed_theme}
+
+## 2. Project Structure and Dynamic Prompting
+The session will begin by generating the project file structure, outlining the number of lessons, steps, quizzes, Python files, support files (e.g., hints, glossary), video scripts, and images for each lesson. Based on this structure, the backend will dynamically send prompts to OpenAI to generate one file at a time.
+
+- **Generate the Structure First**: OpenAI will first generate the project structure, which includes the lessons, steps (located in subfolders), quizzes, and other files for each phase (EXPLORE, BUILD, LAUNCH).
+- **One File at a Time**: Once the structure is defined, each subsequent prompt sent to OpenAI will generate one file at a time (lesson content, steps, quizzes, video scripts, Python files, support files). The user will review each file before proceeding to the next.
+
+## 3. Technical Constraints
+The Python code generated must adhere to the following constraints due to the browser-based execution environment in the Coder Sports IDE:
+- **No File I/O**: Avoid any code that requires reading from or writing to files.
+- **No Multithreading**: The environment is synchronous and single-threaded.
+- **Pyodide-Compatible Libraries**: Only use Python libraries supported by Pyodide. Avoid libraries that require external installation via pip.
+- **Efficient Performance**: Ensure that the code is optimized for a browser environment with limited memory and CPU.
+
+## 4. Educational Framework: PRIMM and EBL Models
+The content generated must follow the PRIMM framework, which emphasizes progressive learning through prediction, investigation, and hands-on application:
+- **Predict**: Encourage students to predict what will happen in the code before they execute it.
+- **Run**: Allow students to run the code and compare the results to their predictions.
+- **Investigate**: Provide explanations and prompts that guide students through understanding why the code behaves in certain ways.
+- **Modify**: Create opportunities for students to modify the code and observe how their changes affect the outcome.
+- **Make**: Encourage students to apply what they’ve learned by creating new projects or extending the lesson with creative enhancements.

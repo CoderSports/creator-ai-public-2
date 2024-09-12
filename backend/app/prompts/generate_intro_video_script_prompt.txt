@@ -1,0 +1,15 @@
+# Generate Introductory Video Script Prompt
+
+You are generating an introductory video script for a Python lesson aimed at students aged 11-18. The script should introduce the key programming concepts in an engaging and accessible way.
+
+## Instructions for OpenAI:
+1. Generate an introductory video script (`lesson_intro_video_script.md`) that introduces the lesson’s key concepts (e.g., loops, conditionals, functions).
+2. Ensure the script is engaging and appropriate for students aged 11-18, using relatable real-world analogies or scenarios to explain the concepts.
+3. Ensure the video script is required for every lesson and follows the lesson's key objectives and flow.
+
+### Example Response:
+- **lesson_intro_video_script.md**: Introduces loops, using an analogy of repeated daily tasks like brushing teeth, explaining how loops in Python work similarly to repeat actions.
+
+### Dynamic Elements:
+- **lesson_title**: Aligned with the title of the lesson.
+- **key_concepts**: Aligned with the key programming concepts introduced in the lesson (e.g., loops, functions).

@@ -1,0 +1,34 @@
+# Project Creation Prompt Guidelines
+
+## Purpose
+
+This document provides guidelines for generating detailed prompts that instruct OpenAI to create Python learning projects for middle and high school students (ages 11-18). Each request to OpenAI should generate one file at a time, ensuring clarity, consistency, and ease of review by the user.
+
+## Structure of the Project Prompt
+
+1. **User Input**:
+   - The user may propose a project title and general theme, which should be used to guide the overall structure and content generation for the project.
+   - OpenAI will use the proposed title and theme as the basis for generating the project’s structure, lessons, steps, and quizzes.
+
+2. **Project Theme and Description**:
+   - Start with a detailed description of the theme or topic of the project. This should include a creative backstory, relatable scenarios, or real-world applications to engage students.
+   - Example: "Create a Python project called 'Space Explorer'. In this project, students will simulate a spaceship exploring different planets in the solar system. They will write code to calculate distances between planets, determine optimal paths for space travel, and simulate landings on different planetary surfaces."
+
+3. **One File at a Time**:
+   - Ensure that each request to OpenAI generates one file at a time. The process should start with the lesson content (e.g., `lesson_intro.md`), followed by steps (`step{step_number}.md`), and finally quizzes (`lesson_quiz.xml`).
+   - After each file is generated, the user will review it before proceeding to the next file.
+
+4. **Learning Objectives and Tasks**:
+   - Provide a clear description of the tasks students will complete. Break down each major task or challenge, detailing what students are expected to accomplish and the skills they will develop.
+   - Example: "Students will write a function to calculate the fuel needed to travel between planets. Then, they will simulate successful landings based on gravitational force."
+
+5. **Reflection and Review**:
+   - Suggest including reflection questions or review prompts at the end of the project to help students think critically about their work.
+   - Example: "Encourage students to reflect on how changing variables in their code affected the simulation. What changes resulted in successful landings?"
+
+### Example Prompt:
+
+```plaintext
+"Project Title: 'Weather Tracker'
+
+In this project, students will create a Python program that tracks and analyzes weather data. The main objective is for students to learn how to use lists, loops, and functions. Students will write code to gather temperature data, calculate averages, and simulate weather predictions. The project will begin with an introduction to basic data collection techniques, followed by exercises in creating and manipulating lists. Students will then build a function that predicts future weather patterns based on current data. For a creative challenge, ask students to add a feature that visualizes the data using text-based graphs."

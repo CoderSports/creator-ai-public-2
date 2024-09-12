@@ -1,0 +1,28 @@
+# Scaffolding Strategy for Python Learning Projects
+
+## Purpose
+
+This document provides guidelines for OpenAI to generate Python content that is scaffolded effectively for middle and high school students (ages 11-18). Scaffolding ensures that students gradually build up their knowledge and skills, moving from simple to more complex concepts and tasks. Each file should be generated individually, with scaffolding occurring within the file’s content.
+
+## Scaffolding Approach
+
+1. **Incremental Complexity**:
+   - **Simple to Complex**: Each file (e.g., lesson content, steps) should follow a gradual progression, starting with simpler tasks and concepts before introducing more complex ideas.
+   - **Layered Learning**: Ensure that each task reinforces prior knowledge while introducing new concepts. Scaffolding should occur within each file, guiding students step by step.
+
+2. **One File at a Time**:
+   - Each file should be generated one at a time (lesson content first, steps next, quizzes last), allowing for incremental learning. The user will review each file before moving on to the next.
+   - **Lesson Content**: The lesson should introduce key concepts, breaking them down into manageable pieces.
+   - **Steps**: Each step should build upon the lesson content, reinforcing key concepts through hands-on tasks.
+   - **Quizzes**: The quiz should test the concepts introduced in the lesson, ensuring that students understand the material before moving on.
+
+3. **Multiple Learning Phases**:
+   - **Predict and Investigate**: Encourage students to predict what will happen in the code before running it. Provide explanations to help them investigate the code’s behavior.
+   - **Modify and Make**: After running the code, guide students through modifying it and applying their knowledge to new tasks.
+
+4. **Guided Exercises and Freedom**:
+   - **Guided Exercises**: Provide clear, structured exercises at the start of each lesson to build student confidence.
+   - **Creative Challenges**: Once students have mastered the basics, offer open-ended challenges that allow them to explore alternative solutions or modify the project creatively.
+
+### Notes for OpenAI:
+Ensure that scaffolding occurs within each file (lesson content, steps, quizzes), and generate one file at a time. Each file should progressively build students’ knowledge, starting with simpler concepts and advancing to more complex tasks.

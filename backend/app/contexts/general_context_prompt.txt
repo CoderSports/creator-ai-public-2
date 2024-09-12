@@ -1,0 +1,81 @@
+# General Context for Python Learning Projects
+
+## 1. Educational Purpose and Goals
+
+The purpose of this project is to generate Python learning modules for middle and high school students (ages 11-18). The goal is to build a strong foundation in programming through **hands-on, interactive learning**. The focus should be on essential programming concepts, such as variables, loops, functions, and error handling, with an emphasis on **problem-solving** and **critical thinking**. 
+
+**Progressive learning** is key: each lesson should build upon previous ones, reinforcing concepts and allowing students to apply their growing knowledge in practical scenarios. Ensure that students are exposed to both theoretical and practical aspects of programming, fostering creativity and innovation through coding challenges and projects.
+
+Key Objectives:
+- **Strengthen fundamental skills**: Develop an understanding of core programming concepts.
+- **Encourage problem-solving**: Foster a mindset of logical thinking and resilience when encountering coding challenges.
+- **Promote incremental learning**: Structure lessons to allow students to progressively advance in skill and confidence.
+
+## 2. Content Tone and Style
+
+The content must be **accessible, supportive, and engaging**. Use **clear, age-appropriate language**, avoiding jargon unless necessary—and provide simple explanations when introducing technical terms. The tone should foster curiosity and a growth mindset, allowing students to learn through experimentation, **embrace mistakes as learning opportunities**, and refine their understanding over time.
+
+**Content Guidelines:**
+- **Language**: Use language suitable for ages 11-18; explanations should be broken down into **manageable chunks** with clear examples and analogies.
+- **Encouragement**: Emphasize a growth mindset, encouraging students to learn through experimentation and iterative problem-solving.
+- **Clarity**: Avoid ambiguity. Use direct instructions and reinforce explanations with examples whenever possible.
+
+## 3. Structure of Lessons
+
+Each lesson should adhere to a **consistent structure**, aligned with both **PRIMM** and **EBL** learning models:
+
+1. **Introduction**: Briefly introduce the lesson's topic, linking it to previous lessons and explaining its importance. Use real-world examples to help students understand the relevance of the lesson in practical programming scenarios.
+2. **Explanation**: Provide a step-by-step explanation of the core concept, breaking it down into smaller, easily digestible pieces. Reinforce understanding using analogies, real-world scenarios, and visual aids when appropriate.
+3. **Examples**: Include **well-commented code examples** that illustrate the concept clearly and align with the students' learning level.
+4. **Exercises**: Provide hands-on exercises designed to allow students to practice what they've learned. Break down complex tasks into **manageable steps** and offer challenges that stimulate creativity and independent problem-solving.
+5. **Quizzes**: Include a quiz in **LearnDash-compatible XML format** that tests students’ understanding of key concepts from the lesson. Use feedback to encourage reflection and guide students toward the correct understanding.
+6. **Summary**: Recap the main points of the lesson, helping students solidify their understanding. Reinforce how the lesson fits into the broader context of their learning journey.
+
+## 4. Learning Models: PRIMM and EBL
+
+### **PRIMM Model:**
+- **Predict**: Encourage students to make predictions about what the code will do before running it.
+- **Run**: Allow students to run the code and compare the outcome with their predictions.
+- **Investigate**: Guide students in exploring the code and understanding its behavior.
+- **Modify**: Provide opportunities for students to modify the code and experiment with different outcomes.
+- **Make**: Challenge students to create new projects or extend existing ones based on the concepts learned.
+
+### **EBL Model:**
+- **EXPLORE**: Present students with interactive code snippets or projects that they can explore and interact with, helping them grasp basic concepts.
+- **BUILD**: Guide students through the process of building their own versions of the project in a step-by-step manner.
+- **LAUNCH**: Encourage students to complete and refine their project, incorporating any personal enhancements they wish to add.
+
+These models should be tightly integrated into the lesson structure, allowing students to **explore, build, and apply** their skills incrementally.
+
+## 5. Use of `main.py` and `hidden.py`
+
+To align with the PRIMM model:
+- **`main.py`**: Focus on the core lesson concepts in this file. Ensure that the code is simple, well-commented, and directly related to the lesson's objectives.
+- **`hidden.py`**: Store more complex or advanced code in this file. Students will be exposed to this code gradually during the **Investigate** and **Modify** phases, allowing them to dive deeper into more complex logic without being overwhelmed.
+
+This separation helps students maintain focus on key concepts while giving them the opportunity to explore more advanced ideas when they are ready.
+
+## 6. Engagement and Interactivity
+
+Incorporate interactive elements to keep students engaged and motivated:
+- **Quizzes**: Use LearnDash-compatible XML quizzes to assess students' understanding of key concepts. Include feedback that encourages reflection and deeper learning.
+- **Hands-on Exercises**: Design exercises that encourage students to practice what they've learned by modifying and experimenting with code. The exercises should promote both structured learning and creativity.
+- **Challenges**: Offer optional advanced challenges for students who wish to explore more complex topics. These challenges should build on the lesson's core concepts, encouraging independent exploration and critical thinking.
+
+## 7. Supporting Files
+
+Include the following supporting files to enhance the learning experience:
+- **`hints.md`**: Provide students with optional hints to guide them through exercises without giving away the solutions.
+- **`glossary.md`**: Include definitions of key programming terms used throughout the lessons to aid comprehension.
+- **`step(x).md`**: Break down complex tasks into smaller, manageable steps to ensure students can complete tasks incrementally.
+
+These files should be carefully structured to reinforce the lesson's objectives and support students’ understanding and application of the material.
+
+## 8. Example Content and Topics
+
+The content should cover a range of programming topics, increasing in complexity as students progress through the lessons. The topics should include:
+- **Introductory Concepts**: Variables, data types, operators, input/output, and basic syntax.
+- **Control Structures**: Loops, conditionals, and functions.
+- **Advanced Concepts**: Lists, dictionaries, file handling, error management, and basic algorithms.
+
+Ensure that each lesson builds on the previous one, reinforcing key concepts and allowing students to deepen their understanding through practice and application. Encourage exploration, creativity, and experimentation in coding.

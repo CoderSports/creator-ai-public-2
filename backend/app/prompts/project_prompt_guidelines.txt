@@ -1,0 +1,26 @@
+# Project Creation Prompt Guidelines
+
+## Purpose:
+These guidelines explain how to generate detailed prompts that instruct OpenAI to create Python learning projects for middle and high school students (ages 11-18). OpenAI must first generate the project structure, which guides the dynamic sequence of prompts sent by the backend to create each file one by one.
+
+## Structure of the Project Prompt:
+
+1. **Project Structure First**:
+   - OpenAI must first generate the project file structure, outlining the number of lessons, steps, quizzes, Python files, and support files (e.g., video scripts, images, `hints.md`, `glossary.md`) for each phase (EXPLORE, BUILD, LAUNCH).
+   - Once the structure is defined, the backend will dynamically send prompts to OpenAI to generate the content files (lesson content, steps, quizzes, video scripts, Python files, support files) one at a time.
+
+2. **Lesson Content and Steps**:
+   - OpenAI will generate lesson content first, followed by steps, quizzes, and Python files in sequence. Each request to OpenAI must result in a single file, which the user will review before the next file is generated.
+   - Example: After generating `lesson_intro.md`, the next files generated will be `step1.md`, `lesson_quiz.xml`, and then Python files (`main.py`, `hidden.py`, `solution.py`), along with supporting files (`hints.md`, `glossary.md`).
+
+3. **One File at a Time**:
+   - Ensure that only one file is generated per request. This allows the user to review each file before moving on to the next one.
+
+4. **Support Files**:
+   - Each lesson will include additional files such as `hints.md` and `glossary.md` to provide support and guidance for students. These files will be generated after the lesson content and Python files.
+
+### Example Prompt:
+
+"Project Title: 'Weather Tracker'
+
+In this project, students will create a Python program that tracks and analyzes weather data. The main objective is for students to learn how to use lists, loops, and functions. Students will write code to gather temperature data, calculate averages, and simulate weather predictions. For a creative challenge, ask students to add a feature that visualizes the data using text-based graphs."

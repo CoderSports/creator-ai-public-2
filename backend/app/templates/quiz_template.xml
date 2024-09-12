@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Quiz: {quiz_title}</title>
+    <description>This quiz is designed to test your understanding of the key concepts covered in {lesson_or_project}. Each question is based on the specific code, functions, and logic you encountered during the lesson.</description>
+
+    <!-- Guidance for OpenAI -->
+    <!-- Generate questions that are directly related to the specific examples, functions, and concepts introduced in the lesson. -->
+    <!-- Ensure that questions are age-appropriate, encourage critical thinking, and assess both conceptual understanding and practical application. -->
+    
+    <!-- Multiple Choice Questions -->
+
+    <!-- Example Question 1 (Based on lesson-specific function) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>What is the correct output of the function `{example_function}` when the input is `{example_value}`?</question_text>
+        <answer_options>
+            <option correct="true">{expected_output}</option>
+            <option correct="false">{incorrect_option_1}</option>
+            <option correct="false">{incorrect_option_2}</option>
+            <option correct="false">{incorrect_option_3}</option>
+        </answer_options>
+        <feedback correct="Well done! You correctly applied the logic of `{example_function}`." incorrect="Remember, `{example_function}` calculates {explanation}. Review the function in the lesson to better understand how it works.">
+        </feedback>
+    </question>
+
+    <!-- Example Question 2 (Conceptual question related to the lesson) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>Which of the following is true about the concept of `{concept_from_lesson}` as used in the lesson?</question_text>
+        <answer_options>
+            <option correct="true">{correct_concept_explanation}</option>
+            <option correct="false">{incorrect_concept_explanation_1}</option>
+            <option correct="false">{incorrect_concept_explanation_2}</option>
+            <option correct="false">{incorrect_concept_explanation_3}</option>
+        </answer_options>
+        <feedback correct="Nice work! You have a strong grasp of `{concept_from_lesson}`." incorrect="Take another look at how `{concept_from_lesson}` was applied in the lesson. It’s important to understand this concept before moving forward.">
+        </feedback>
+    </question>
+
+    <!-- Example Question 3 (Edge cases and practical understanding) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>How could the function `{example_function}` be modified to handle edge cases such as invalid input?</question_text>
+        <answer_options>
+            <option correct="true">Implement error handling using `try-except`.</option>
+            <option correct="false">Remove input validation entirely.</option>
+            <option correct="false">Increase the input size automatically.</option>
+            <option correct="false">Return a default value without explanation.</option>
+        </answer_options>
+        <feedback correct="Well done! Using `try-except` is an effective way to handle errors and invalid inputs." incorrect="Think about the importance of managing invalid inputs. Revisit the function in the lesson for a clearer understanding.">
+        </feedback>
+    </question>
+
+    <!-- Quiz Settings -->
+    <settings>
+        <passing_score>70</passing_score>
+        <time_limit>600</time_limit>
+        <randomize_questions>true</randomize_questions>
+        <feedback_style>immediate</feedback_style> <!-- Encourage reflection immediately after each question. -->
+    </settings>
+</quiz>

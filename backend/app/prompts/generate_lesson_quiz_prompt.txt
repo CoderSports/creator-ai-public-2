@@ -1,0 +1,17 @@
+# Generate Lesson Quiz Prompt
+
+You are generating a quiz for a Python lesson aimed at students aged 11-18. The quiz should assess students' understanding of the key programming concepts introduced in the lesson.
+
+## Instructions for OpenAI:
+1. Generate a quiz (`lesson_quiz.xml`) that tests the key concepts introduced in the lesson (e.g., loops, functions, conditionals).
+2. Ensure the quiz contains 3-5 multiple-choice questions that assess both conceptual understanding and practical application.
+3. Format the quiz in LearnDash-compatible XML format and include feedback for both correct and incorrect answers.
+
+### Example Response:
+- **lesson_quiz.xml**: A multiple-choice quiz testing students’ understanding of loops.
+  - Question 1: "What is the purpose of a loop in Python?"
+  - Question 2: "What will the following code output if the list contains the numbers 1-5?"
+
+### Dynamic Elements:
+- **lesson_title**: Automatically aligned with the lesson title.
+- **key_concepts**: Aligned with the key programming concepts introduced in the lesson (e.g., loops, functions).

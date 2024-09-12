@@ -1,0 +1,18 @@
+# Generate Phase Summary Quiz Prompt
+
+You are generating a quiz to summarize the key programming concepts covered during the {phase} phase (EXPLORE, BUILD, or LAUNCH) of a Python learning project for students aged 11-18.
+
+## Instructions for OpenAI:
+1. Generate a quiz (`phase_summary_quiz.xml`) that tests the key programming concepts introduced throughout the {phase} phase.
+2. Ensure the quiz contains 5-7 multiple-choice questions that assess both conceptual understanding and practical application across multiple lessons.
+3. This quiz is a merged quiz for the entire {phase}, not a single lesson, and should summarize all key concepts from the phase.
+4. Format the quiz in LearnDash-compatible XML format and include feedback for both correct and incorrect answers.
+
+### Example Response:
+- **phase_summary_quiz.xml**: A multiple-choice quiz summarizing the key concepts from the BUILD phase.
+  - Question 1: "Which of the following best describes how loops are used in the BUILD phase?"
+  - Question 2: "How do conditionals help control the flow of a program?"
+
+### Dynamic Elements:
+- **phase**: The phase being summarized (EXPLORE, BUILD, or LAUNCH).
+- **key_concepts**: Aligned with the key programming concepts introduced throughout the phase (e.g., loops, conditionals, functions).

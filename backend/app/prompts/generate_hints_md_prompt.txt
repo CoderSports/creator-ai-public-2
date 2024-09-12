@@ -1,0 +1,14 @@
+# Generate Hints File (`hints.md`) Prompt
+
+You are generating a `hints.md` file for a Python lesson aimed at students aged 11-18. The file should contain tiered hints to help guide students through difficult tasks in the lesson without giving away the full solution.
+
+## Instructions for OpenAI:
+1. Generate tiered hints for the lesson, starting with simple guidance and progressively giving more detailed hints.
+2. Ensure the hints align with the key programming concepts introduced in the lesson.
+3. Provide hints that encourage students to think critically about the problem before revealing too much information.
+4. Refer to the project context and templates for guidance on the lesson’s objectives and expected code behavior.
+
+### Example Response (No specific code example):
+- **Hint 1**: "Think about what this function should return based on the input."
+- **Hint 2**: "Try using a loop to iterate over the list of numbers."
+- **Hint 3**: "Remember that you'll need to return the result of the function at the end."

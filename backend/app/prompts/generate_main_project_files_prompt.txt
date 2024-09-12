@@ -1,0 +1,21 @@
+# Generate Main Project Files Prompt
+
+You are generating the main project files for a Python learning project aimed at students aged 11-18. The project must align with the PRIMM (Predict, Run, Investigate, Modify, Make) and EBL (Explore, Build, Launch) educational frameworks.
+
+## Instructions for OpenAI:
+1. Generate the following files, which will form the foundation of the project:
+   - `project_intro_video_script.md`: An engaging video script introducing the project and its objectives.
+   - `solution.py`: The complete solution for the project, including well-commented Python code.
+   - `project_summary_quiz.xml`: A quiz summarizing the entire project, testing key concepts.
+2. Ensure that the content is accessible, engaging, and suitable for students aged 11-18.
+3. Follow the technical constraints of the Coder Sports IDE, ensuring compatibility with Pyodide and avoiding file I/O or multithreading.
+
+## User Inputs:
+1. **Project Title**: {user_proposed_title}
+2. **Learning Objectives**: {learning_objectives}
+3. **Key Concepts**: {key_concepts}
+
+### Example Response:
+- **project_intro_video_script.md**: An engaging script that introduces students to the project. It explains the project’s main goals and how it relates to key Python concepts such as loops and functions.
+- **solution.py**: A Python script that provides the full solution for the project. It includes well-commented code explaining each step, and accounts for edge cases like invalid input.
+- **project_summary_quiz.xml**: A quiz consisting of multiple-choice questions testing students on the main concepts they’ve learned throughout the project.

@@ -1,0 +1,77 @@
+# Instruction Template for Python Learning Projects (OpenAI Guidance)
+
+# Lesson Title: {lesson_title}
+
+## Overview
+In this lesson, students will learn about {concept}, focusing on {learning_goal}. By completing this lesson, students will gain hands-on experience in implementing {concept} through practical coding exercises in Python.
+
+## Phase: {lesson_phase}
+- **Objective**: The learning objective for this step should clearly define the skill or concept being covered. Example: "Students will understand how to use recursion to solve a problem."
+  
+- **Prerequisites**: List any prior knowledge or lessons required for this step. Example: "Students should be familiar with loops and conditionals."
+
+- **Expected Outcome**: State the measurable outcomes that students should achieve. Example: "Students will write a function that calculates the factorial of a number using recursion."
+
+## Step Instructions
+
+### 1. Introduction
+- Introduce the concept for this step and explain its importance in the overall lesson.
+- Ensure that the step connects to previous lessons and that the code works within the Coder Sports IDE constraints.
+
+### 2. Detailed Explanation
+- Break down the concept into manageable parts.
+- Provide analogies, examples, and scaffolded explanations to help students grasp the idea.
+- Explain how this step builds towards the final outcome of the lesson.
+
+### 3. Code Example
+- Provide a relevant code snippet that demonstrates the core concept for this step. Ensure that the code fits within the Coder Sports IDE environment and can be easily modified by students.
+
+```python
+# Example: Recursive function to calculate the factorial of a number
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Test the function with sample input
+print(factorial(5))  # Expected output: 120
+```
+
+### 4. Exercise
+- Provide an exercise directly related to the code example.
+- Clearly define the task, expected outcome, and constraints.
+  
+```plaintext
+Exercise: Modify the `factorial` function to handle the case when `n` is 0 (i.e., the base case should return 1 when `n` is 0).
+Expected Outcome: The modified function should calculate the factorial of any non-negative integer.
+```
+
+### 5. Hints (Optional)
+- Provide 2-3 hints to guide students without giving away the full solution.
+  
+**Hint 1**: "Consider what happens when `n` is 0."
+**Hint 2**: "Remember that `n! = 1` when `n` is 0."
+
+### 6. Quiz (Refer to quiz_template.xml)
+- The quiz will be generated separately using **quiz_template.xml**.
+
+### 7. Summary
+- Summarize the key takeaways from this step, explaining how the concept contributes to the broader learning goals.
+
+Example: "In this step, you successfully wrote a recursive function to calculate the factorial of a number. This concept will be important when solving more advanced problems involving recursion."
+
+### 8. Next Steps
+- Provide suggestions for further exploration and experimentation.
+  
+Example: "Try modifying the function to handle even larger numbers, or explore other recursive problems, such as calculating Fibonacci numbers."
+
+# Notes for OpenAI
+- Ensure the instructions are clear, and the lesson builds progressively.
+- Reinforce connections between steps to create continuity in the lesson.
+- Make sure the code examples are appropriate for the age group and fit within the Coder Sports IDE.
+
+### Key Features:
+1. **Dynamic Placeholders**: `{lesson_title}`, `{concept}`, `{learning_goal}`, and `{exercise}` ensure flexibility.
+2. **Code Example & Exercise**: Practical examples and exercises help students apply their learning immediately.
+3. **Quiz Removed**: To keep quizzes separate, the template refers to **quiz_template.xml** for generating the assessment.

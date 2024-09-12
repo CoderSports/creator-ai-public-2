@@ -1,0 +1,9 @@
+# Generate Main Python File (`main.py`) Prompt
+
+You are generating the main Python file (`main.py`) for a Python lesson aimed at students aged 11-18. The file should contain the core lesson logic that students will interact with.
+
+## Instructions for OpenAI:
+1. Generate the Python code for the `main.py` file, ensuring that the code aligns with the key programming concepts introduced in the lesson (e.g., loops, functions).
+2. Include clear comments to guide students through the code.
+3. Ensure the code adheres to the technical constraints of the Coder Sports IDE (e.g., no file I/O, Pyodide-compatible libraries).
+4. Refer to the project context and template for the expected learning objectives and example code structures.

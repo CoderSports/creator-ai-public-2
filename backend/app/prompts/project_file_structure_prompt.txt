@@ -1,0 +1,53 @@
+# Project File Structure Prompt
+
+You are generating the file structure for a Python learning project aimed at students aged 11-18. The project must align with the PRIMM and EBL educational frameworks.
+
+## Instructions for OpenAI:
+1. Generate a file structure that includes the main project folder, with subfolders for the phases (EXPLORE, BUILD, LAUNCH), and files for each lesson, Python files, support files, quizzes, and a course-level image.
+2. Ensure that the file structure includes:
+   - **Main Course Files**: Including the `course_intro_video_script.md`, `course_overview.md`, `course_learning_objectives.md`, `course_summary_quiz.xml`, and **course_image.webp**.
+   - **EXPLORE/BUILD/LAUNCH Phase Subfolders**: Each phase contains its own lessons with the following files:
+     - **Lesson Content** (`lesson.md`)
+     - **Steps** (`step{x}/step{x}.md`) — Each step should be in its own subfolder.
+     - **Quizzes**:
+       - `quiz.xml` (Lesson-specific quiz)
+       - Phase-level `quiz.xml` (merged quiz for the entire phase)
+     - **Python Files** (`main.py`, `hidden.py`, `solution.py`)
+     - **Video Scripts** (`lesson_intro_video_script.md`, `lesson_detailed_video_script.md`) — Required for each lesson.
+     - **Support Files** (`hints.md`, `glossary.md`)
+     - **Images** (`lesson_image.webp`) — Required for each lesson.
+3. Return the structure in a clear format, outlining the lessons and steps for each phase.
+
+### Example Response:
+```plaintext
+<project_name>/
+  - README.md
+  - course_intro_video_script.md
+  - course_overview.md
+  - course_learning_objectives.md
+  - course_summary_quiz.xml
+  - course_image.webp
+  EXPLORE/
+    - explore_image.webp
+    - explore_intro_video_script.md
+    - quiz.xml  # Merged quiz for EXPLORE phase
+    - lesson1/
+      - lesson.md
+      - step1/
+        - step1.md
+      - step2/
+        - step2.md
+      - quiz.xml
+      - main.py
+      - hidden.py
+      - solution.py
+      - hints.md
+      - glossary.md
+      - lesson_intro_video_script.md
+      - lesson_detailed_video_script.md
+      - lesson_image.webp
+  BUILD/
+    - Same structure as EXPLORE
+  LAUNCH/
+    - Same structure as EXPLORE and BUILD
+  quiz.xml  # Project-wide summary quiz

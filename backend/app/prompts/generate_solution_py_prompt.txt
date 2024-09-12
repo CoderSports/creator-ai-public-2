@@ -1,0 +1,9 @@
+# Generate Solution Python File (`solution.py`) Prompt
+
+You are generating the solution Python file (`solution.py`) for a Python lesson aimed at students aged 11-18. The file should contain the complete solution to the project or lesson, including clear comments and explanations.
+
+## Instructions for OpenAI:
+1. Generate the complete Python code for the `solution.py` file, ensuring that it includes all key programming concepts introduced in the lesson.
+2. The code should include clear comments and explanations to help students understand the solution.
+3. Adhere to the technical constraints of the Coder Sports IDE (e.g., no file I/O, Pyodide-compatible libraries).
+4. Refer to the project context and templates for guidance on the lesson objectives and expected output.

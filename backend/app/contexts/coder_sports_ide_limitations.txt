@@ -1,0 +1,83 @@
+# Coder Sports IDE Limitations and Content Guidelines
+
+This document serves as a reference for generating Python projects in the Coder Sports IDE. The IDE is built with **Ace Editor**, **WebAssembly**, **Pyodide**, and **PyScript**, catering to middle and high school students. Content should adhere to the **PRIMM** educational model (Predict, Run, Investigate, Modify, Make) and emphasize incremental learning, contextual relevance, and hands-on engagement.
+
+## 1. Platform Architecture
+
+1. **Ace Editor Compatibility:**
+   - The generated code must be compatible with **Ace Editor** for syntax highlighting, code completion, and user-friendly code editing.
+
+2. **WebAssembly and Pyodide:**
+   - The IDE relies on **WebAssembly** with **Pyodide** and **PyScript** to execute Python code in a browser environment. Only Python libraries supported by Pyodide are allowed, with no pip installations.
+
+3. **PyScript Integration:**
+   - Python code can interact with HTML and JavaScript through **PyScript** for dynamic, real-time updates. Encourage the integration of interactive elements (e.g., buttons, sliders) to enhance student engagement.
+
+## 2. Technical Constraints
+
+1. **Internet Access:**
+   - The IDE operates with consistent internet access, allowing the use of online services, APIs, and cloud-based resources. Code should handle potential network errors, including timeouts and failed API calls, with appropriate error handling.
+
+2. **Limited File I/O:**
+   - Avoid traditional file input/output operations. The IDE is browser-based, so use in-memory operations or browser storage mechanisms such as `localStorage` for data persistence.
+
+3. **No System-Level Operations:**
+   - System-level commands (e.g., environment variables, shell commands) are not supported. The focus should be on cross-browser-compatible operations.
+
+4. **No Multithreading or Async Operations:**
+   - The environment is synchronous and single-threaded. Refrain from using async/await or multithreading techniques.
+
+5. **Memory and CPU Optimization:**
+   - Be mindful of the limited computational resources available in the browser. Avoid deep recursion, CPU-heavy operations, or large memory footprints that could slow down or crash the environment.
+
+## 3. Educational Framework: PRIMM Model
+
+The **PRIMM** model emphasizes:
+1. **Predict:** Before running the code, encourage students to make predictions about what will happen.
+2. **Run:** Allow students to execute the code to see the outcome of their predictions.
+3. **Investigate:** Prompt students to analyze how the code works.
+4. **Modify:** Guide students in altering the code to achieve different results.
+5. **Make:** Encourage students to apply their knowledge to create new projects or enhancements.
+
+## 4. Code Structure and Pedagogy
+
+1. **Modular Code Design:**
+   - Structure code into small, reusable functions to promote clarity. Use minimal global variables and emphasize modularity and readability.
+
+2. **`main.py` and `hidden.py`:**
+   - Use **`main.py`** for visible core logic and **`hidden.py`** for support functions that students gradually investigate. This dual-file approach helps students focus on core concepts without being overwhelmed by complexity.
+
+3. **Commenting and Readability:**
+   - Ensure thorough commenting, especially in critical sections. Educational comments should guide students through the logic and help reinforce key concepts. Avoid overly complex language and focus on age-appropriate analogies.
+
+4. **Error Handling:**
+   - Implement basic error handling for common mistakes, such as incorrect inputs or network issues, and provide meaningful error messages to help students debug.
+
+## 5. Audience and Engagement
+
+1. **Target Audience:**
+   - Ensure content is accessible and engaging for students aged 11-18. Tailor the difficulty to match students’ skill levels, considering varying levels of programming experience.
+
+2. **Interactive Content:**
+   - Engage students with quizzes, challenges, and hands-on coding tasks. Encourage experimentation and active participation, allowing students to interact with the code through PyScript elements such as buttons, text inputs, and sliders.
+
+## 6. Educational Goals and Concept Reinforcement
+
+1. **Learning Objectives:**
+   - Align each lesson with specific, measurable learning objectives. These objectives should be clear, actionable, and tailored to concepts such as loops, conditionals, functions, and debugging.
+
+2. **Concept Reinforcement:**
+   - Reinforce concepts with summary sections, quizzes, and exercises that challenge students to apply what they have learned. Use scaffolding to build on previously covered material and ensure that each task progressively deepens understanding.
+
+3. **Contextual Reinforcement:**
+   - Integrate real-world analogies and examples to make abstract concepts relatable. Clearly explain how each task ties into the overall project and what role it plays in achieving the final outcome.
+
+## 7. Creativity and Exploration
+
+1. **Encourage Creativity:**
+   - Suggest ways students can extend the project, experiment with different parameters, or explore alternative approaches to solving problems. Challenge students to think beyond the immediate task and explore the flexibility of code.
+
+2. **Exploration of Edge Cases:**
+   - Prompt students to explore edge cases in their code, such as handling invalid inputs or testing under different conditions. Encourage experimentation to deepen their understanding of the code’s behavior.
+
+By following these guidelines, OpenAI will generate Python projects that are both technically sound and pedagogically effective, ensuring that students develop a deep understanding of programming while engaging with hands-on, interactive lessons.

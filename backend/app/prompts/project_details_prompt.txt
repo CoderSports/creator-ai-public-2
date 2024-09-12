@@ -1,0 +1,21 @@
+# Project Details Prompt
+
+Now that the project title and idea have been accepted, confirm the following details before starting content creation.
+
+## Instructions for OpenAI:
+1. Confirm that the project is designed for students aged 11-18 and focuses on {complexity_level} (beginner, intermediate, advanced).
+2. Highlight the specific Python concepts that will be taught, such as loops, functions, or conditionals.
+3. Provide a list of **learning objectives** that align with the project. Each objective should be clear and measurable.
+4. Specify the **content flow** that will follow the PRIMM and EBL models:
+   - **EXPLORE**: Introduce the project and allow students to interact with basic code.
+   - **BUILD**: Guide students in creating the project step-by-step.
+   - **LAUNCH**: Encourage students to complete and enhance the project creatively.
+
+### Example Response:
+- **Project Title**: "Weather Forecaster"
+- **Complexity Level**: Intermediate
+- **Key Concepts**: Loops, functions, conditionals.
+- **Learning Objectives**:
+   - Understand how to use loops to process multiple sets of data.
+   - Write functions to calculate weather predictions.
+   - Use conditionals to handle unexpected data.

@@ -1,0 +1,11 @@
+# Generate Course Image (`course_image.webp`) Prompt
+
+You are generating the course image (`course_image.webp`) for a Python learning project aimed at students aged 11-18. The image should visually represent the theme or objectives of the course in an engaging and educational way.
+
+## Instructions for OpenAI:
+1. Generate an engaging and educational image (`course_image.webp`) that visually represents the theme or learning objectives of the course.
+2. Ensure the image is appropriate for students aged 11-18 and aligns with the course content (e.g., coding, problem-solving, technology).
+3. The image should be in `.webp` format and suitable for use as the main visual representation of the course.
+
+### Example Response:
+- A course image that shows a fun, tech-themed representation of learning Python, with icons representing coding, logic, and problem-solving.

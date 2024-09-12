@@ -1,0 +1,24 @@
+### **Step {step_number}: {step_title}**
+
+## Objective
+- **Objective:** {step_objective}
+
+## Instructions
+
+1. **Task Overview:** Provide a concise summary of what students need to do in this step.
+2. **Detailed Instructions:** Break down the task into manageable actions.
+   - **Step 1:** {task_step_1}
+   - **Step 2:** {task_step_2}
+   - **Step 3:** {task_step_3}
+
+## Code Snippet (if applicable)
+```python
+# Example code for Step {step_number}
+
+def step_{step_number}_function():
+    return "This is step {step_number}"
+```
+
+## Expected Outcome
+- **Outcome:** {expected_outcome}
+- **Testing Instructions:** Encourage students to test their code using various inputs.

@@ -1,0 +1,19 @@
+# Project Proposal Prompt
+
+You are generating a Python learning project for students aged 11-18. The project must align with the PRIMM (Predict, Run, Investigate, Modify, Make) and EBL (Explore, Build, Launch) educational frameworks.
+
+## Instructions for OpenAI:
+1. Based on the user-proposed project title and general theme, generate a detailed project description and structure.
+2. Ensure that the project focuses on core programming concepts such as variables, loops, conditionals, and functions.
+3. Include a creative theme or scenario that engages students and applies the concepts to real-world situations.
+4. The project should allow students to explore, build, and apply their knowledge through interactive coding exercises.
+
+## User Inputs:
+1. **Proposed Project Title**: {user_proposed_title} (e.g., "Fibonacci Sequence Exploration")
+2. **General Theme**: {user_proposed_theme} (e.g., intermediate complexity project focusing on the Fibonacci sequence)
+3. **Complexity Level**: {complexity_level} (e.g., beginner, intermediate, advanced)
+4. **Learning Objectives**: {learning_objectives} (e.g., loops, conditionals, functions)
+
+### Example Response:
+- **Project Title**: "Fibonacci Sequence Explorer"
+- **Description**: In this project, students will create a Python program to generate and explore the Fibonacci sequence. The focus will be on applying loops and recursion to generate the sequence, while using conditionals to handle edge cases. By the end of the project, students will have gained a deeper understanding of loops, recursion, and conditionals.

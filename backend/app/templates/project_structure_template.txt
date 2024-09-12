@@ -1,0 +1,64 @@
+# Project Structure Template for Python Learning Projects (For OpenAI)
+
+# Overview
+This template is designed to guide the creation of Python learning projects using the PRIMM and EBL frameworks. Each project follows a structured, multi-phase approach (EXPLORE, BUILD, LAUNCH), with each phase containing multiple lessons. The template ensures the proper organization of files to support the educational journey of students aged 8-16.
+
+# Project Directory Structure
+```plaintext
+<project_name>/
+├── README.md
+├── project_image.webp  # Required
+├── project_intro_video_script.md  # Required
+├── EXPLORE/
+│   ├── explore_image.webp  # Required
+│   ├── explore_intro_video_script.md  # Required
+│   ├── quiz.xml  # Merged quiz for the entire EXPLORE phase
+│   ├── Lesson{lesson_number}-{lesson_title}/
+│   │   ├── lesson.md  # Contains the main lesson content
+│   │   ├── step{step_number}/
+│   │   │   ├── step{step_number}.md  # Step in its own subfolder
+│   │   ├── quiz.xml  # Lesson-specific quiz
+│   │   ├── lesson_image.webp  # Required
+│   │   ├── lesson_intro_video_script.md  # Required
+│   │   ├── lesson_detailed_video_script.md  # Required
+│   │   ├── main.py
+│   │   ├── hidden.py
+│   │   ├── solution.py
+│   │   ├── hints.md
+│   │   ├── glossary.md
+├── BUILD/
+│   ├── build_image.webp  # Required
+│   ├── build_intro_video_script.md  # Required
+│   ├── quiz.xml  # Merged quiz for the entire BUILD phase
+│   ├── Lesson{lesson_number}-{lesson_title}/
+│   │   ├── lesson.md  # Contains the main lesson content
+│   │   ├── step{step_number}/
+│   │   │   ├── step{step_number}.md  # Step in its own subfolder
+│   │   ├── quiz.xml  # Lesson-specific quiz
+│   │   ├── lesson_image.webp  # Required
+│   │   ├── lesson_intro_video_script.md  # Required
+│   │   ├── lesson_detailed_video_script.md  # Required
+│   │   ├── main.py
+│   │   ├── hidden.py
+│   │   ├── solution.py
+│   │   ├── hints.md
+│   │   ├── glossary.md
+├── LAUNCH/
+│   ├── launch_image.webp  # Required
+│   ├── launch_intro_video_script.md  # Required
+│   ├── quiz.xml  # Merged quiz for the entire LAUNCH phase
+│   ├── Lesson{lesson_number}-{lesson_title}/
+│   │   ├── lesson.md  # Contains the main lesson content
+│   │   ├── step{step_number}/
+│   │   │   ├── step{step_number}.md  # Step in its own subfolder
+│   │   ├── quiz.xml  # Lesson-specific quiz
+│   │   ├── lesson_image.webp  # Required
+│   │   ├── lesson_intro_video_script.md  # Required
+│   │   ├── lesson_detailed_video_script.md  # Required
+│   │   ├── main.py
+│   │   ├── hidden.py
+│   │   ├── solution.py
+│   │   ├── hints.md
+│   │   ├── glossary.md
+└── quiz.xml  # Project-wide summary quiz
+```

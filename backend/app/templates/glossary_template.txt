@@ -1,0 +1,53 @@
+### glossary_template.txt
+```plaintext
+# Glossary for {project_title} - {complexity} Project
+
+This glossary explains the key programming terms used in the {project_title} project. Each term is defined in a way that helps students aged 8-16 understand core programming concepts. Where possible, analogies and real-world examples are provided to relate these concepts to everyday situations.
+
+## Glossary Terms
+
+### Term 1: Function
+**Definition**: A function is a reusable block of code that performs a specific task. In {project_title}, you will write functions to calculate important values like the area of a circle. Just like following a recipe, you provide inputs, and the function returns an output.
+
+- **Example**:
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```
+
+- **Link to Previous Terms**: A function uses variables as its ingredients to create outputs, just like how a recipe uses ingredients to make food.
+
+- **Real-World Connection**: Functions are like following instructions in the kitchen to bake a cake.
+
+### Term 2: Variable
+**Definition**: A variable is like a storage box in programming. In {project_title}, you will use variables to store player scores, object positions, and more. The value of a variable can change while the program runs.
+
+- **Example**:
+```python
+player_score = 0
+```
+
+- **Link to Previous Terms**: Just like ingredients in a recipe can change, a variable’s value can change while your program runs.
+
+- **Real-World Connection**: Variables are like containers where you store ingredients that you might use in different parts of a recipe.
+
+### Term 3: Loop
+**Definition**: A loop allows you to repeat a block of code until a condition is met. In {project_title}, you will use loops to move through different levels or repeat tasks automatically.
+
+- **Example**:
+```python
+for i in range(3):
+    print("This will print three times.")
+```
+
+- **Link to Previous Terms**: Loops often work with variables to track how many times something repeats.
+
+- **Real-World Connection**: Loops are like setting an alarm to go off every hour—it repeats based on a set condition.
+
+(Add more terms as needed for the lesson.)
+```
+
+### Key Features:
+1. **Real-world connections**: Every definition is linked to relatable real-world examples, which is especially useful for younger learners.
+2. **Examples and Context**: Code examples accompany each term, providing clear, actionable demonstrations of concepts.
+3. **Link to Other Terms**: The glossary helps students see how different programming concepts are interconnected.

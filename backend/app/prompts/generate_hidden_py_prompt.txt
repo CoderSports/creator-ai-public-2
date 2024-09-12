@@ -1,0 +1,10 @@
+# Generate Hidden Python File (`hidden.py`) Prompt
+
+You are generating a hidden Python file (`hidden.py`) for a Python lesson aimed at students aged 11-18. The file should contain supporting code that is imported into `main.py`, allowing the project to run without revealing all the logic to students initially.
+
+## Instructions for OpenAI:
+1. Generate the supporting Python code for the `hidden.py` file, ensuring that it aligns with the key programming concepts and can be imported into `main.py` to execute the full project.
+2. Ensure the code is not visible to students at first, but is critical for running the project when they execute `main.py`.
+3. Include clear comments that guide students when they eventually investigate this hidden code as part of the lesson’s progression.
+4. Adhere to the technical constraints of the Coder Sports IDE (e.g., no file I/O, Pyodide-compatible libraries).
+5. Refer to the project context and templates for guidance on the supporting code structure and objectives.

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Summary Quiz: {quiz_title}</title>
+    <description>This summary quiz covers the key concepts learned during the {phase_name} phase of the {project_title} project. The questions will help assess your understanding of the major lessons and concepts explored.</description>
+
+    <!-- Guidance for OpenAI -->
+    <!-- Generate summary questions that assess a student's comprehension across multiple lessons. Focus on core concepts and their applications. Ensure questions encourage critical thinking. -->
+
+    <!-- Example Question 1 (Lesson Recap) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>Which function is used to calculate the area of a circle?</question_text>
+        <answer_options>
+            <option correct="true">calculate_area_of_circle()</option>
+            <option correct="false">calculate_diameter()</option>
+            <option correct="false">find_area()</option>
+            <option correct="false">circle_area()</option>
+        </answer_options>
+        <feedback correct="Correct! The function `calculate_area_of_circle()` was introduced in Lesson 2." incorrect="Incorrect. Review Lesson 2 for the correct function name.">
+        </feedback>
+    </question>
+
+    <!-- Example Question 2 (Concept Review) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>What is the purpose of a loop in programming?</question_text>
+        <answer_options>
+            <option correct="true">To repeat a block of code until a condition is met.</option>
+            <option correct="false">To create a function.</option>
+            <option correct="false">To organize code into blocks.</option>
+            <option correct="false">To handle user input.</option>
+        </answer_options>
+        <feedback correct="Great! A loop repeats a block of code until a condition is met." incorrect="Not quite. A loop allows repetition based on a condition.">
+        </feedback>
+    </question>
+
+    <!-- Example Question 3 (Summary Question) -->
+    <question>
+        <type>multiple_choice</type>
+        <question_text>Which Python error is raised when a value is outside the expected range?</question_text>
+        <answer_options>
+            <option correct="true">ValueError</option>
+            <option correct="false">TypeError</option>
+            <option correct="false">IndexError</option>
+            <option correct="false">KeyError</option>
+        </answer_options>
+        <feedback correct="Correct! A `ValueError` is raised when a value is not within the expected range." incorrect="Review the lesson on error handling to understand why a `ValueError` is appropriate here.">
+        </feedback>
+    </question>
+
+    <!-- Quiz Settings -->
+    <settings>
+        <passing_score>70</passing_score>
+        <time_limit>900</time_limit> <!-- 15-minute time limit -->
+        <randomize_questions>true</randomize_questions>
+        <feedback_style>immediate</feedback_style> <!-- Immediate feedback for better learning -->
+    </settings>
+</quiz>

@@ -1,0 +1,11 @@
+# Generate Lesson Content Prompt
+
+You are generating the main lesson content for a Python learning project aimed at students aged 11-18. The lesson should align with the PRIMM (Predict, Run, Investigate, Modify, Make) and EBL (Explore, Build, Launch) frameworks.
+
+## Instructions for OpenAI:
+1. Generate the lesson content (`lesson_intro.md`), introducing key programming concepts such as {key_concepts}.
+2. Provide clear explanations and code examples.
+3. Ensure the content adheres to the technical constraints of the Coder Sports IDE.
+
+### Example Response:
+- **lesson_intro.md**: Introduces loops, explaining how they work and why they are useful. Provides code examples and explanations for `for` and `while` loops.
